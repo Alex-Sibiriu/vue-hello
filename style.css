@@ -6,4 +6,9 @@
 
 .main-container {
   height: 100vh;
+  background-color: black;
+}
+
+.red {
+  color: red;
 }
