@@ -8,13 +8,22 @@
   <!-- VUE JS -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
   <div id="app">
+    <div class="main-container">
 
-    <h1>{{ message }}</h1>
+
+      <h1>{{ message }}</h1>
+
+      <img :src='imgClock'>
+    </div>
+
 
   </div>
 
